@@ -73,15 +73,15 @@ export const date = async (args: string[]): Promise<string> => {
   return new Date().toString();
 };
 
-export const clicker = async (args: string[]): Promise<string> => {
+export const 炼金术士Clicker = async (args: string[]): Promise<string> => {
   return `你可以在 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.clicker}" target="_blank">这里</a></u> 找到 炼金术士Clicker`;
 };
 
-export const brain = async (args: string[]): Promise<string> => {
+export const 三个王国Brain = async (args: string[]): Promise<string> => {
   return `你可以在 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.brain}" target="_blank">这里</a></u> 找到 三个王国Brain`;
 };
 
-export const buddha = async (args: string[]): Promise<string> => {
+export const 如如 = async (args: string[]): Promise<string> => {
   return `你可以在 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.buddha}" target="_blank">这里</a></u> 找到 如如：功德冲榜模拟器`;
 };
 
@@ -95,6 +95,10 @@ export const banner = (args?: string[]): string => {
   ██║  ██║╚██████╗██║██████╔╝╚███╔███╔╝██║  ██║███████╗███████╗███████║   ██║   ╚██████╔╝██████╔╝██║╚██████╔╝
   ╚═╝  ╚═╝ ╚═════╝╚═╝╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝   
 
+这里是 AcidWallStudio 的官方网站！以下我们制作的游戏：
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.buddha}" target="_blank">如如：功德冲榜模拟器</a></u>
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.clicker}" target="_blank">炼金术士Clicker</a></u>
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.brain}" target="_blank">三个王国Brain</a></u>
 输入 'help' 查看更多命令。
 输入 'sumfetch' 来显示 AcidWallStudio 的信息。
 输入 'repo' 或点击 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">这里</a></u> 来查看Github仓库。
