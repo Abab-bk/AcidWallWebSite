@@ -1,3 +1,9 @@
+# *
 User-agent: *
-Disallow:
-Disallow: /cgi-bin/
+Allow: /
+
+# Host
+Host: https://www.acidwall.icu
+
+# Sitemaps
+Sitemap: https://www.acidwall.icu/sitemap.xml
