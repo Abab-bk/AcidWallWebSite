@@ -40,6 +40,7 @@ const IndexPage: React.FC<IndexPageProps> = ({ inputRef }) => {
       <Head>
         <title>{config.title}</title>
         <meta name="baidu-site-verification" content="codeva-CgEkiYsPzO" />
+        <meta name="google-site-verification" content="jKN8fqPIyXY25XUds3ZJ5rq90Z64NxfxykrldJ6nbCI" />
       </Head>
 
       <div className="p-8 overflow-hidden h-full border-2 rounded border-light-yellow dark:border-dark-yellow">
