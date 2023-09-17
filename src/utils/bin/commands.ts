@@ -95,10 +95,12 @@ export const banner = (args?: string[]): string => {
   ██║  ██║╚██████╗██║██████╔╝╚███╔███╔╝██║  ██║███████╗███████╗███████║   ██║   ╚██████╔╝██████╔╝██║╚██████╔╝
   ╚═╝  ╚═╝ ╚═════╝╚═╝╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝ ╚═════╝   
 
-这里是 AcidWallStudio 的官方网站！以下我们制作的游戏：
+这里是 AcidWallStudio 的官方网站！以下是我们制作的游戏：
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.buddha}" target="_blank">如如：功德冲榜模拟器</a></u>
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.clicker}" target="_blank">炼金术士Clicker</a></u>
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.brain}" target="_blank">三个王国Brain</a></u>
+友情链接：
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.cricular}" target="_blank">环形防线</a></u>
 输入 'help' 查看更多命令。
 输入 'sumfetch' 来显示 AcidWallStudio 的信息。
 输入 'repo' 或点击 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">这里</a></u> 来查看Github仓库。
