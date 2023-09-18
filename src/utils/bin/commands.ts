@@ -103,6 +103,5 @@ export const banner = (args?: string[]): string => {
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.cricular}" target="_blank">环形防线</a></u>
 输入 'help' 查看更多命令。
 输入 'sumfetch' 来显示 AcidWallStudio 的信息。
-输入 'repo' 或点击 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">这里</a></u> 来查看Github仓库。
 `;
 };
