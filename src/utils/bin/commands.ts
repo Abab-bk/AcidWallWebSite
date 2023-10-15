@@ -101,6 +101,9 @@ export const banner = (args?: string[]): string => {
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.brain}" target="_blank">三个王国Brain</a></u>
 友情链接：
 <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.cricular}" target="_blank">环形防线</a></u>
+我们承包：
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.godot_ui}" target="_blank">UI 设计*（可在Godot中搭建）</a></u>
+<u><a class="text-light-blue dark:text-dark-blue underline" href="${config.games.godot_code}" target="_blank">Godot 程序</a></u>
 输入 'help' 查看更多命令。
 输入 'sumfetch' 来显示 AcidWallStudio 的信息。
 `;
